@@ -562,6 +562,18 @@ function toggleTeam(id){
   else { S.team.shift(); S.team.push(id); }
 }
 
+/* Acquisition d'une entree du registre — SEUL chemin autorise.
+   Centralise les trois choses qui doivent toujours aller ensemble :
+   marquer la possession, rouvrir les portes que le nouveau verbe debloque,
+   et sauvegarder. Les oublier separement etait deja un bug une fois. */
+async function grant(id){
+  if (!id || S.owned[id]) return false;
+  S.owned[id] = true;
+  if (UI.scene && UI.scene.refreshGates) UI.scene.refreshGates();
+  await saveGame();
+  return true;
+}
+
 /* ---------------------------------------------------------------------------
    SAUVEGARDE — adaptateur à trois niveaux.
    window.storage (aperçu Claude) → localStorage (GitHub Pages) → mémoire.
@@ -1252,10 +1264,7 @@ const Combat = {
     S.bossesDone[this.def.id] = true;
     S.level++;
     let gained = null;
-    if (this.def.reward && !S.owned[this.def.reward]){
-      S.owned[this.def.reward] = true;
-      gained = BY_ID[this.def.reward];
-    }
+    if (await grant(this.def.reward)) gained = BY_ID[this.def.reward];
     await saveGame();
     this.close();
     if (this.sprite){ this.sprite.destroy(); }
@@ -1385,10 +1394,8 @@ const UI = {
     const line = LINES[e.id] || FILLER[0];
     await this.say(entry.name.toUpperCase(), line);
 
-    S.owned[e.id] = true;
+    await grant(e.id);
     sprite.play('npc_on_down');
-    if (this.scene) this.scene.refreshGates();
-    await saveGame();
 
     const extra = this.verbLine(entry);
     const n = ownedCount();
