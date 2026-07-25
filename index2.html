@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0E141C">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAF7ElEQVR4nO3dPW7UQBjGcS+KEEIookgRoUikgCYFx+AeHIMTcAw6DsExEB00NIiCAiEURakoLA3Is4/ne+a19/+ronx4d513n9cz9o4P5xdXU0ePn5xP03T753f1bVbfLB6MfgKwi+KAdAi2lT6h3bk1tOhuxmXsYZIDEsUB6Sz4G2Ozt1G72eWLWpfxWCQHpHByjLXLY0b3olyELL5fUUlKkRyQKA5I4XmOHWB+PQ/JAYnigGR9tFJFSTcxPtHetGOSHJAoDkgn0VaeXlwWbuHho8eL7/z6+SN1I4sprymlF6ju1rTfkRyQKA5IdSbByg/pS466g10jowUs+E+v4oPGv/aV36w4bHGbIjkgURyQtnduxc9zF+DB7tbzJMvK86yISTCMYT05+rz/4sW8U1WAWXstQSQHJIoDUlFbaXo0NIdwn+D1X0jGS8uYrphn5e/vblP/sM8HzEgOSBQHpCNtJWMuvHz6fMiRfNOUjj8Ha3YUQ3JAojggJYxWgiGckdIuUVWQ1k1+459RWIxiptH9heSARHFA+tdWhpyxXInNpkvLzWw2l//F7Kh1JSeDSA5IvS8TXEyKZ0w5O/bf9xX1PJngkByQKA5InS72yTiwGvsh1SpXhFfn78aSRw/+LckBieKA1LatlA/ThxtyjjrI7dj4C4UykByQKA5ICUswGD+l2UjGizW1LjHrkKIJigPS4fL6Zv6qYhj2GaTsps1VWX6ixa4mOSDVXBOs86yG8QUk4xdaKVmJxe3qFjuf5IBEcUA6G3I058fmx3evyjf7+u2n9V8of5TgQ3R7FCX7U75cJogEFAekOqOV1Csctz4zYZA/bInfyVzsg2QUB6QmC+PvZmJ7BzgriyYoDkhFbUXN559mN/E/kzfEYthSsj4/yQGJ4oB0pK00PZ1t82aLX94vs/flm+Q7f1l7Uak4t4IER5Kj6TvA1NvLDwz/RxkR0hO31MAYFAekmgekG5o1X2koR3/TbHPhvrIYg+KAlDNaMbuwgs1JlFHm/07JP4vkgERxQKp5sU/JAKfzE5hHHzFjFrPjlA5IDkgUB6Qm15DG6zOyUM3LtYwqZ2U76DzNSHJAylkTzCw1zxF8n9nMCV/nKRySAxLFASmhrbhMc7ens3Ya1sjT2IrgfatIDkgUByR5sY+zktWLH1nrMlgX/DeRHJAoDkhnfi/IbgruD0/8To5bwW28kI/igFRzHdKS0cqz5y/Kn8DnDxU2Mvwhpmmapvx1SOMxWkE+OX2eEQMcdbbG9RywguKAJNsKPWIg1T642AdWUByQcq4+b3HrqO/fvhZuYU+qtI/UpSZ9JAckigNSzUkw7AzJAYnigBSeBKO/WDBk0SKSAxLFASk8CZZ679qkP0Gk4C5tsfNJDkhFi7fc393OX5TP1KKQC4yK5zRIDkgUB6SituIvyoA9ITkgURyQ6txvpXwNdsRYmcxosfNJDkgUB6Ted4dEic73ViM5IFEckA7nF1fVN2pt2LLj08UZuzp+b5AckJokh1MeITt+05fok80kBySKA9LgOzUF0U3WNW27JAckigNS27bSYrGGPUk9Ad55N5IckCgOSEcmwZp+LHPxIYbNzXGNesJDPvxBckCiOCAVnVvJzlgGL5HcjnIfLpyxvDUGa3tWNsiPECOHqGOfhpFkJTkgURyQBrcVxwWpczrHqmZfO8kBieKANPhiHzco8IN07GpBi9GKP3jJGM74f2J8RSSSAxLFAcnKaEWldMyRfPaEVeeZLrOjEoXkgERxQGrbVqoc0i++7y9OZzOcN9dEfCQHJIoDUp22MuRuII4f4Ast8rzzg5bv4YwWT3JAsjLPES/jHRB8l2fImG4xch1TPJIDEsUBKaGtuFR0thKPZg05kI9vfyQHJIoDkrnRSvAqm9PUoQH5u5rkgERxQDLXVpymQRq/8SF5bgTJAYnigHS4vL6Zv+qTaT1T2rEW19aofwrJAcnuAenM7MFaZ0Mm2kkOSBQHJOsL42fofEDap/GVX76fgeSARHFA+gtLyjk5PAUd0wAAAABJRU5ErkJggg==">
+<title>LE SALÉ LINGUISTIQUE</title>
+<style>
+/* ============================================================
+   TOKENS — palette « royaume semé de sel »
+   Le monde est minéral et délavé. La couleur revient avec les alliés.
+   ============================================================ */
+:root{
+  --ink:#0E141C;        /* le vide, le fond */
+  --brine:#1B2430;      /* panneaux */
+  --brine-2:#243040;    /* panneaux élevés */
+  --salt:#E8E4DC;       /* croûte de sel, texte principal */
+  --salt-dim:#8D9099;   /* texte secondaire */
+  --wax:#A33A32;        /* les ordres. le sceau. */
+  --wax-lit:#D65A4E;
+  --gilt:#C89B4A;       /* ce qui est restauré */
+  --verdigris:#4E8F7C;  /* ce qui est vivant */
+  --bruise:#6B4A7A;     /* l'ennemi */
+
+  --serif:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif;
+  --sans:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
+
+  --sat:env(safe-area-inset-top,0px);
+  --sab:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;background:var(--ink);color:var(--salt);
+  font-family:var(--sans);overscroll-behavior:none;touch-action:none;
+  -webkit-user-select:none;user-select:none}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+
+#app{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+#game{width:100%;height:100%}
+canvas{display:block;touch-action:none}
+
+/* ---------- couches ---------- */
+.layer{position:fixed;inset:0;z-index:10;display:none;flex-direction:column;
+  background:var(--ink);padding-top:var(--sat);padding-bottom:var(--sab)}
+.layer.on{display:flex}
+
+/* ---------- typographie ---------- */
+.decree{font-family:var(--serif);font-size:clamp(26px,8vw,42px);line-height:1;
+  letter-spacing:.01em;font-weight:400}
+.eyebrow{font-family:var(--mono);font-size:10px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--salt-dim)}
+.ledger{font-family:var(--mono);font-size:12px;letter-spacing:.04em}
+
+/* ============================================================
+   SIGNATURE — les sceaux.
+   JHN ne frappe pas. Il scelle des ordres. Deux par tour.
+   ============================================================ */
+#seals{display:flex;gap:10px;align-items:center;justify-content:center;
+  padding:10px 0 4px}
+.seal{width:34px;height:34px;border-radius:50%;position:relative;
+  background:radial-gradient(circle at 34% 30%,var(--wax-lit),var(--wax) 62%,#6E241F);
+  box-shadow:0 2px 0 #5A1D19, inset 0 -2px 3px rgba(0,0,0,.45);
+  transition:transform .18s cubic-bezier(.3,1.6,.5,1),opacity .18s,filter .18s}
+.seal::after{content:'';position:absolute;inset:8px;border-radius:50%;
+  border:1.5px solid rgba(255,225,205,.32)}
+.seal.spent{transform:scale(.72) rotate(-14deg);opacity:.2;filter:grayscale(1)}
+.seal.gain{animation:sealIn .5s cubic-bezier(.2,1.7,.4,1)}
+@keyframes sealIn{from{transform:scale(0) rotate(90deg)}to{transform:none}}
+
+/* ---------- combat ---------- */
+#combat{background:
+  radial-gradient(120% 60% at 50% 0%,#2A3444 0%,var(--ink) 70%)}
+.cbt-top{flex:1;display:flex;flex-direction:column;align-items:center;
+  justify-content:center;gap:14px;padding:18px;min-height:0}
+#foeArt{width:128px;height:128px;flex:none;image-rendering:pixelated;
+  background-repeat:no-repeat;background-size:512px 768px;
+  animation:bossIdle 1.1s steps(1) infinite;
+  filter:drop-shadow(0 6px 14px rgba(0,0,0,.55))}
+@keyframes bossIdle{
+  0%,24.9%  {background-position-x:0}
+  25%,49.9% {background-position-x:-128px}
+  50%,74.9% {background-position-x:-256px}
+  75%,100%  {background-position-x:-384px}}
+
+/* choix de l'equipe : cinq verbes existent, trois descendent sur le terrain */
+.pick{display:flex;align-items:center;gap:11px;width:100%;text-align:left;
+  padding:11px;margin-bottom:7px;background:var(--brine);border-radius:3px;
+  border:1px solid transparent;transition:border-color .15s,background .15s}
+.pick.in{border-color:var(--gilt);background:var(--brine-2)}
+.pick .av{width:44px;height:44px;flex:none;image-rendering:pixelated;
+  background-repeat:no-repeat;background-size:1056px 176px}
+.pick .who{font-family:var(--serif);font-size:14px;line-height:1.2}
+.pick .vb{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;
+  color:var(--salt-dim);margin-top:3px}
+.pick .slot{margin-left:auto;font-family:var(--mono);font-size:9px;
+  letter-spacing:.12em;color:var(--gilt);flex:none}
+
+.foe-name{font-family:var(--serif);font-size:clamp(22px,7vw,34px);color:var(--bruise);
+  filter:brightness(1.7);letter-spacing:.02em}
+.bar{width:min(320px,82vw);height:7px;background:#0B1017;border-radius:4px;overflow:hidden}
+.bar>i{display:block;height:100%;background:var(--bruise);
+  transition:width .45s cubic-bezier(.3,0,.2,1)}
+.bar.small{width:100%;height:4px}
+.bar.small>i{background:var(--verdigris)}
+
+/* la carte de télégraphe : ce que le boss prépare */
+.tele{border:1px solid rgba(232,228,220,.16);background:rgba(27,36,48,.8);
+  border-radius:3px;padding:10px 16px;text-align:center;min-width:190px;
+  backdrop-filter:blur(6px)}
+.tele .act{font-family:var(--serif);font-size:19px;letter-spacing:.02em}
+.tele .cnt{font-family:var(--mono);font-size:11px;color:var(--wax-lit);
+  letter-spacing:.14em;margin-top:3px}
+.tele.hidden .act{filter:blur(7px);opacity:.55}
+.tele.hidden .cnt{visibility:hidden}
+.tele.imminent{border-color:var(--wax);animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{50%{background:rgba(163,58,50,.22)}}
+
+/* ---------- alliés ---------- */
+.allies{display:flex;gap:8px;padding:0 12px}
+.ally{flex:1;background:var(--brine);border:1px solid transparent;border-radius:3px;
+  padding:9px 7px;text-align:left;transition:border-color .15s,background .15s;min-width:0}
+.ally.sel{border-color:var(--gilt);background:var(--brine-2)}
+.ally.down{opacity:.32}
+.ally .nm{font-family:var(--serif);font-size:13px;line-height:1.15;margin-bottom:6px;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ally .hp{font-family:var(--mono);font-size:9px;color:var(--salt-dim);margin-top:4px}
+
+/* ---------- verbes ---------- */
+.verbs{display:flex;flex-wrap:wrap;gap:7px;padding:12px;min-height:78px;align-content:flex-start}
+.verb{border:1px solid rgba(232,228,220,.2);border-radius:2px;padding:9px 14px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.13em;text-transform:uppercase;
+  transition:background .15s,border-color .15s}
+.verb:active{background:var(--wax);border-color:var(--wax)}
+.verb[disabled]{opacity:.25}
+.verb .cost{color:var(--wax-lit);margin-left:7px}
+
+/* ---------- journal ---------- */
+#log{height:64px;overflow:hidden;padding:0 14px;display:flex;flex-direction:column;
+  justify-content:flex-end;gap:2px}
+#log p{font-size:12.5px;color:var(--salt-dim);line-height:1.35;
+  animation:logIn .25s ease-out}
+#log p:last-child{color:var(--salt)}
+@keyframes logIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+.cbt-foot{border-top:1px solid rgba(232,228,220,.09);background:rgba(14,20,28,.92)}
+#endturn{width:100%;padding:15px;font-family:var(--mono);font-size:12px;
+  letter-spacing:.2em;text-transform:uppercase;background:var(--brine);
+  border-top:1px solid rgba(232,228,220,.09)}
+#endturn:active{background:var(--wax)}
+
+/* ---------- dialogue ---------- */
+#dialog{position:fixed;left:0;right:0;bottom:0;z-index:20;display:none;
+  background:linear-gradient(transparent,var(--ink) 22%);
+  padding:44px 16px calc(16px + var(--sab))}
+#dialog.on{display:block}
+.dbox{background:var(--brine);border:1px solid rgba(232,228,220,.14);border-radius:3px;
+  padding:14px 16px;max-width:640px;margin:0 auto}
+.dwho{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gilt);margin-bottom:7px}
+.dtxt{font-size:15px;line-height:1.5}
+.dhint{font-family:var(--mono);font-size:9.5px;color:var(--salt-dim);
+  text-align:right;margin-top:9px;letter-spacing:.12em}
+
+/* ---------- HUD monde ---------- */
+#hud{position:fixed;top:0;left:0;right:0;z-index:5;padding:calc(var(--sat) + 10px) 14px 0;
+  display:flex;justify-content:space-between;align-items:flex-start;pointer-events:none}
+#hud .region{font-family:var(--serif);font-size:15px;text-shadow:0 1px 4px var(--ink)}
+#hud .year{font-family:var(--mono);font-size:10px;letter-spacing:.2em;color:var(--gilt)}
+#menuBtn{pointer-events:auto;font-family:var(--mono);font-size:10px;letter-spacing:.16em;
+  border:1px solid rgba(232,228,220,.25);border-radius:2px;padding:7px 11px;
+  background:rgba(14,20,28,.75)}
+
+/* ---------- manette tactile ---------- */
+#stick{position:fixed;z-index:6;width:112px;height:112px;border-radius:50%;
+  border:1px solid rgba(232,228,220,.16);display:none;pointer-events:none}
+#stick i{position:absolute;left:50%;top:50%;width:44px;height:44px;margin:-22px 0 0 -22px;
+  border-radius:50%;background:rgba(232,228,220,.2);
+  border:1px solid rgba(232,228,220,.35)}
+#actBtn{position:fixed;right:22px;bottom:calc(30px + var(--sab));z-index:6;
+  width:72px;height:72px;border-radius:50%;border:1px solid rgba(200,155,74,.5);
+  background:rgba(27,36,48,.85);font-family:var(--mono);font-size:10px;
+  letter-spacing:.1em;color:var(--gilt);display:none}
+#actBtn.on{display:block}
+#actBtn:active{background:var(--gilt);color:var(--ink)}
+
+/* ---------- menu / royaume / registre ---------- */
+.sheet{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:18px 16px 30px}
+.tabs{display:flex;border-bottom:1px solid rgba(232,228,220,.12)}
+.tab{flex:1;padding:15px 6px;font-family:var(--mono);font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--salt-dim);border-bottom:2px solid transparent}
+.tab.on{color:var(--salt);border-bottom-color:var(--gilt)}
+.sect{margin-bottom:26px}
+.sect h3{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gilt);margin-bottom:11px;padding-bottom:7px;
+  border-bottom:1px solid rgba(200,155,74,.22)}
+
+/* le royaume : chaque allié ramené rallume un bâtiment */
+#realm{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:7px}
+.brick{aspect-ratio:1;border:1px solid rgba(232,228,220,.1);border-radius:2px;
+  background:#141B24;display:flex;align-items:center;justify-content:center;
+  font-family:var(--mono);font-size:8px;color:#39404A;text-align:center;padding:3px;
+  line-height:1.15;overflow:hidden;transition:all .5s}
+.brick.up{background:linear-gradient(160deg,rgba(200,155,74,.2),rgba(200,155,74,.05));
+  border-color:rgba(200,155,74,.55);color:var(--gilt);
+  box-shadow:0 0 14px rgba(200,155,74,.16)}
+
+/* le registre : les 36 entrées, par année */
+.entry{display:flex;align-items:baseline;gap:10px;padding:8px 0;
+  border-bottom:1px solid rgba(232,228,220,.06)}
+.entry .n{font-family:var(--mono);font-size:9px;color:#39404A;width:22px;flex:none}
+.entry .t{font-size:14px;flex:1}
+.entry .k{font-family:var(--mono);font-size:8.5px;letter-spacing:.12em;
+  text-transform:uppercase;padding:2px 6px;border-radius:2px;flex:none}
+.entry.locked .t{color:#39404A}
+.entry.locked .t::after{content:' ····'}
+.k.play{background:rgba(78,143,124,.18);color:var(--verdigris)}
+.k.equip{background:rgba(200,155,74,.16);color:var(--gilt)}
+.k.key{background:rgba(163,58,50,.2);color:var(--wax-lit)}
+
+.big{width:100%;padding:15px;margin-top:8px;font-family:var(--mono);font-size:11px;
+  letter-spacing:.18em;text-transform:uppercase;border:1px solid rgba(232,228,220,.22);
+  border-radius:2px}
+.big:active{background:var(--brine-2)}
+.big.warn{border-color:rgba(163,58,50,.5);color:var(--wax-lit)}
+
+/* ---------- titre ---------- */
+#title{justify-content:center;align-items:center;text-align:center;padding:26px;
+  background:radial-gradient(100% 70% at 50% 40%,#1E2836,var(--ink) 72%)}
+#title .crown{font-size:40px;color:var(--gilt);margin-bottom:20px;
+  animation:float 5s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-7px)}}
+#title h1{font-family:var(--serif);font-size:clamp(30px,10vw,52px);line-height:.98;
+  letter-spacing:.01em;margin-bottom:12px}
+#title .sub{max-width:330px;font-size:13.5px;color:var(--salt-dim);line-height:1.55;
+  margin-bottom:34px}
+
+/* ---------- fondu ---------- */
+#fade{position:fixed;inset:0;z-index:50;background:var(--ink);pointer-events:none;
+  opacity:0;transition:opacity .35s}
+#fade.on{opacity:1}
+
+#boot{position:fixed;inset:0;z-index:60;display:flex;align-items:center;
+  justify-content:center;background:var(--ink);text-align:center;padding:26px}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01ms!important}}
+:focus-visible{outline:2px solid var(--gilt);outline-offset:2px}
+</style>
+</head>
+<body>
+
+<div id="app"><div id="game"></div></div>
+
+<div id="hud">
+  <div><div class="region" id="hudRegion">—</div><div class="year" id="hudYear"></div></div>
+  <button id="menuBtn">ROYAUME</button>
+</div>
+<div id="stick"><i></i></div>
+<button id="actBtn">PARLER</button>
+
+<div id="dialog"><div class="dbox">
+  <div class="dwho" id="dWho"></div>
+  <div class="dtxt" id="dTxt"></div>
+  <div class="dhint">TOUCHER POUR CONTINUER</div>
+</div></div>
+
+<!-- ================= COMBAT ================= -->
+<div id="combat" class="layer">
+  <div class="cbt-top">
+    <div class="eyebrow" id="cbtPhase">ORDRE DU ROI</div>
+    <div id="foeArt"></div>
+    <div class="foe-name" id="foeName"></div>
+    <div class="bar"><i id="foeHp"></i></div>
+    <div class="tele" id="tele"><div class="act" id="teleAct"></div><div class="cnt" id="teleCnt"></div></div>
+  </div>
+  <div id="log"></div>
+  <div class="cbt-foot">
+    <div id="seals"></div>
+    <div class="allies" id="allyRow"></div>
+    <div class="verbs" id="verbRow"></div>
+    <button id="endturn">Passer le tour</button>
+  </div>
+</div>
+
+<!-- ================= MENU ================= -->
+<div id="menu" class="layer">
+  <div class="tabs">
+    <button class="tab on" data-tab="realm">Royaume</button>
+    <button class="tab" data-tab="reg">Registre</button>
+    <button class="tab" data-tab="sys">Système</button>
+    <button class="tab" id="closeMenu" style="flex:0 0 54px;font-size:14px">✕</button>
+  </div>
+  <div class="sheet" id="menuSheet"></div>
+</div>
+
+<!-- ================= TITRE ================= -->
+<div id="title" class="layer on">
+  <div class="crown">♛</div>
+  <h1>LE SALÉ<br>LINGUISTIQUE</h1>
+  <p class="sub">JHN n'a plus de royaume, plus d'armée et plus de coups à donner.
+     Il lui reste sa voix. Ramène les trente-cinq.</p>
+  <button class="big" id="btnPlay">Commencer</button>
+  <button class="big" id="btnCont" style="display:none">Reprendre</button>
+</div>
+
+<div id="fade"></div>
+<script>
+/* hors-ligne : silencieux si sw.js est absent */
+if ('serviceWorker' in navigator) addEventListener('load', () => {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+});
+</script>
+<div id="boot"><div>
+  <div class="eyebrow">CHARGEMENT</div>
+  <p class="ledger" style="margin-top:12px;color:var(--salt-dim)" id="bootMsg">…</p>
+</div></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.80.1/phaser.min.js"></script>
+<script>
+/* Assets pixel art générés par tools/gen_assets.py, inlinés en base64.
+   Les PNG bruts sont aussi livrés à part : édite-les et relance le build. */
+const ASSETS = {"tileset": "data:image/png;base64,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", "chars": "data:image/png;base64,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", "bosses": "data:image/png;base64,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"};
+
+/* ============================================================================
+   LE SALÉ LINGUISTIQUE
+   Prototype jouable — Phaser 3 pour le monde, DOM pour l'interface de combat.
+   Un seul fichier, zéro asset externe : tout est dessiné à l'exécution.
+   ============================================================================ */
+'use strict';
+
+const T = 32;                       // taille d'une tuile en px
+const RW = 21, RH = 16;             // dimensions d'une région en tuiles
+const MAPW = RW * 3, MAPH = RH * 3; // 63 x 48 tuiles
+
+/* ---------------------------------------------------------------------------
+   LE REGISTRE — les 36 entrées, dans l'ordre chronologique.
+   kind: 'play' = allié jouable | 'equip' = objet | 'key' = clé | null = peuplement
+   verb: identifiant du pouvoir accordé
+   --------------------------------------------------------------------------- */
+const ROSTER = [
+  // ---- 2020 ----
+  { y:2020, id:'petitnoir', name:'petit noir qui chante', kind:'play',  verb:'CHANTE', reg:0 },
+  // ---- 2021 ----
+  { y:2021, id:'joker',     name:'joker de méfiance',     kind:'equip', verb:'VOIT',   reg:0 },
+  // ---- 2022 ----
+  { y:2022, id:'felic',     name:'félicitation pd',                                    reg:0 },
+  // ---- 2023 ----
+  { y:2023, id:'blague',    name:"c'est une blague",                                   reg:1 },
+  { y:2023, id:'oris',      name:'oris',                                               reg:1 },
+  { y:2023, id:'libellule', name:'libellule marron glacé', kind:'play', verb:'FONDRE', reg:1 },
+  { y:2023, id:'daniel',    name:'daniel',                                             reg:1 },
+  { y:2023, id:'muri',      name:'muri',                                               reg:1 },
+  { y:2023, id:'lee',       name:'lee',                                                reg:1 },
+  // ---- 2024 (première moitié) ----
+  { y:2024, id:'jhn',       name:'jhn', kind:'king',                                   reg:2 },
+  { y:2024, id:'qui',       name:'qui',                                                reg:2 },
+  { y:2024, id:'tressale',  name:'très salé',                                          reg:2 },
+  { y:2024, id:'quoimg',    name:'quoi ma gueule',                                     reg:2 },
+  { y:2024, id:'maxime',    name:'gros maxime',   kind:'play',  verb:'BRISE',          reg:2 },
+  { y:2024, id:'uuh',       name:'UUUUHHHH',                                           reg:2 },
+  { y:2024, id:'aqua',      name:'aqua',          kind:'equip', verb:'ONDE',           reg:2 },
+  // ---- 2024 (seconde moitié) ----
+  { y:2024, id:'darius',    name:'darius stim',   kind:'equip', verb:'SCEAU',          reg:3 },
+  { y:2024, id:'youpi',     name:'youpi youpin',                                       reg:3 },
+  { y:2024, id:'inquis',    name:'inquisition / inquisiteur',                          reg:3 },
+  { y:2024, id:'inqtroub',  name:"monsieur l'inquisiteur et monsieur le troubadour",
+                            kind:'play', verb:'REVELE',                                reg:3 },
+  { y:2024, id:'milf',      name:'la milf',                                            reg:3 },
+  { y:2024, id:'mystic',    name:'mystic juice',                                       reg:3 },
+  { y:2024, id:'aout11',    name:'11 août',       kind:'key',                          reg:3 },
+  // ---- 2025 ----
+  { y:2025, id:'trisse',    name:'trisse',                                             reg:4 },
+  { y:2025, id:'la',        name:'là',            kind:'equip', verb:'AILLEURS',       reg:4 },
+  { y:2025, id:'celeb',     name:'célébrations',                                       reg:4 },
+  { y:2025, id:'gluter',    name:'gluter',                                             reg:4 },
+  { y:2025, id:'ilfaut',    name:'il faut',                                            reg:4 },
+  { y:2025, id:'marquis',   name:'monsieur le marquis', kind:'play', verb:'DECRET',    reg:4 },
+  { y:2025, id:'bipo',      name:'bipo',                                               reg:4 },
+  { y:2025, id:'jhahan',    name:'jhhahahhahahan',                                     reg:4 },
+  { y:2025, id:'taff',      name:'taff',                                               reg:4 },
+  { y:2025, id:'cuba',      name:'cuba prime',                                         reg:4 },
+  // ---- 2026 ----
+  { y:2026, id:'won',       name:'₩ (rire trissé)', kind:'boss',                       reg:5 },
+  { y:2026, id:'memoire',   name:'mémoire',       kind:'equip', verb:'MEMOIRE',        reg:5 },
+  { y:2026, id:'selfkill',  name:'self-kill',     kind:'equip', verb:'SACRIFICE',      reg:5 },
+];
+const BY_ID = Object.fromEntries(ROSTER.map(e => [e.id, e]));
+
+/* ---------------------------------------------------------------------------
+   LES RÉGIONS — grille 3x3, parcours en L. « Linéaire déguisé en open world ».
+   gate: ce qu'il faut posséder pour franchir l'entrée
+   --------------------------------------------------------------------------- */
+const REGIONS = [
+  { i:0, name:'Le Trône Vide',    year:'2020 — 2022', gx:0, gy:2, gate:null,
+    tint:0x2A3038 },
+  { i:1, name:'La Plaine Blanche', year:'2023',        gx:1, gy:2, gate:null,
+    tint:0x323A42 },
+  { i:2, name:'Les Salines',       year:'2024 · I',    gx:2, gy:2, gate:'FONDRE',
+    tint:0x2E3A40 },
+  { i:3, name:'La Faille',         year:'2024 · II',   gx:2, gy:1, gate:'BRISE',
+    tint:0x353038 },
+  { i:4, name:'Les Marais Morts',  year:'2025',        gx:1, gy:1, gate:'ONDE',
+    tint:0x2C3A38 },
+  { i:5, name:'La Couronne',       year:'2026',        gx:1, gy:0, gate:'AOUT',
+    tint:0x3A3040 },
+];
+
+/* ---------------------------------------------------------------------------
+   LES VERBES — un allié = un verbe. En combat et sur la map.
+   cost: nombre de sceaux consommés
+   --------------------------------------------------------------------------- */
+const VERBS = {
+  FRAPPE:   { label:'Frapper',  cost:1, dmg:7,  desc:'Attaque simple.' },
+  GARDE:    { label:'Garder',   cost:1, guard:true, desc:"Encaisse à la place de l'équipe ce tour." },
+  CHANTE:   { label:'Chanter',  cost:1, dmg:4, heal:6, desc:'Blesse un peu, soigne toute l\'équipe.' },
+  FONDRE:   { label:'Fondre',   cost:1, dmg:11, pierce:true, desc:'Ignore la garde ennemie.' },
+  BRISE:    { label:'Briser',   cost:1, dmg:5, breaks:true, desc:'Annule une charge ou une garde.' },
+  REVELE:   { label:'Révéler',  cost:1, mark:2, desc:'Dégâts subis par l\'ennemi +60 % pendant 2 tours.' },
+  DECRET:   { label:'Décréter', cost:1, refund:2, desc:'Rend 2 sceaux. Une fois par combat.', once:true },
+  SACRIFICE:{ label:'Sacrifier',cost:1, dmg:40, selfKO:true, desc:'Dégâts massifs. L\'allié tombe.', once:true },
+};
+
+/* ---------------------------------------------------------------------------
+   LES BOSS — chaque combat est fait main : un pattern à lire, pas un sac à PV.
+   pattern: file d'actions. wind = tours de préparation avant résolution.
+   --------------------------------------------------------------------------- */
+const BOSSES = {
+  /* R0 — apprend la boucle : lire le télégraphe, garder au bon tour. */
+  rire: {
+    id:'rire', name:'LE RIRE', reg:0, hp:68, art:0,
+    intro:"Quelque chose rit dans la salle du trône. Ça ne s'arrête pas.",
+    outro:"Le rire se tait. Il ne s'éteint pas — il s'éloigne.",
+    pattern:[
+      { act:'Ricane',    wind:0, dmg:5 },
+      { act:'Se gonfle', wind:2, dmg:22, guard:true },
+      { act:'Ricane',    wind:0, dmg:5 },
+      { act:'Éclate',    wind:1, dmg:11 },
+    ],
+    reward:'joker',
+  },
+
+  /* R1 — une charge très longue : il faut tenir la garde en réserve. */
+  blague: {
+    id:'blague', name:"C'EST UNE BLAGUE", reg:1, hp:96, art:1,
+    intro:"Elle n'a pas de forme. Elle a une chute, et elle la garde pour la fin.",
+    outro:"Personne ne rit. C'est déjà une victoire.",
+    pattern:[
+      { act:'Prend son temps',  wind:0, dmg:4 },
+      { act:'Se protège',       wind:0, guard:true },
+      { act:'Prépare la chute', wind:3, dmg:26 },
+      { act:'Relance',          wind:0, dmg:8 },
+      { act:'Se protège',       wind:0, guard:true },
+    ],
+    reward:'libellule',
+  },
+
+  /* R2 — se referme sans arrêt : sans FONDRE (qui perce), c'est interminable. */
+  saumure: {
+    id:'saumure', name:'LA SAUMURE', reg:2, hp:118, art:2,
+    intro:"Le sel a fini par prendre une forme. Elle se referme à chaque coup.",
+    outro:"La masse se disperse. Le sol boit ce qui reste.",
+    pattern:[
+      { act:'Se referme', wind:0, guard:true },
+      { act:'Suinte',     wind:0, dmg:12 },
+      { act:'Se referme', wind:0, guard:true },
+      { act:'Déborde',    wind:2, dmg:28 },
+    ],
+    reward:'maxime',
+  },
+
+  /* R3 — une charge énorme qu'il vaut mieux BRISER que subir. */
+  puits: {
+    id:'puits', name:'LE PUITS', reg:3, hp:156, art:3,
+    intro:"La faille descend plus bas que le royaume. Quelque chose y respire.",
+    outro:"Le puits se referme. Au fond, une date.",
+    pattern:[
+      { act:'Aspire', wind:1, dmg:16 },
+      { act:'Gronde', wind:0, dmg:16 },
+      { act:'Avale',  wind:3, dmg:54, unblockable:true },   // la garde n'y peut rien : il faut BRISER
+      { act:'Gronde', wind:0, dmg:16 },
+    ],
+    reward:'aout11',
+  },
+
+  /* R4 — dégâts qui montent sans répit : il faut soigner et gérer les sceaux. */
+  maree: {
+    id:'maree', name:'LA MARÉE', reg:4, hp:196, art:4,
+    intro:"L'eau morte monte depuis 2025. Elle n'a jamais redescendu.",
+    outro:"Le niveau baisse. Le marais rend ce qu'il avait pris.",
+    pattern:[
+      { act:'Monte', wind:0, dmg:11 },
+      { act:'Monte', wind:0, dmg:14 },
+      { act:'Monte', wind:0, dmg:17 },
+      { act:'Rompt', wind:2, dmg:33, guard:true },
+    ],
+    reward:'la',
+  },
+
+  /* R5 — tout à la fois. Le rire du prologue, mais couronné. */
+  won: {
+    id:'won', name:'₩', reg:5, hp:268, art:5,
+    intro:"C'est le rire du premier jour. Il a mis la couronne entre-temps.",
+    outro:"Le royaume n'est pas réparé. Mais il est de nouveau à quelqu'un.",
+    pattern:[
+      { act:'Rit',            wind:0, dmg:10 },
+      { act:'Se couronne',    wind:0, guard:true },
+      { act:'Trisse',         wind:2, dmg:27 },
+      { act:'Rit',            wind:0, dmg:10 },
+      { act:'Tout reprendre', wind:3, dmg:46, guard:true },
+      { act:'Rit',            wind:0, dmg:14 },
+    ],
+    reward:null,
+    final:true,
+  },
+};
+
+/* ---------------------------------------------------------------------------
+   ÉTAT — tout ce qui est sauvegardé.
+   --------------------------------------------------------------------------- */
+const S = {
+  started:false,
+  region:0,
+  x:9, y:41,            // position en tuiles, monde absolu (Le Trône Vide)
+  owned:{},             // id -> true
+  bossesDone:{},        // id -> true
+  level:1,
+  team:[],              // les trois alliés sur le terrain
+  seals:2,              // ordres par tour
+  flags:{},
+};
+
+const has     = id => !!S.owned[id];
+const hasVerb = v  => ROSTER.some(e => e.verb === v && S.owned[e.id]);
+const ownedCount = () => ROSTER.filter(e => S.owned[e.id] && e.id !== 'jhn').length;
+
+/* Les alliés jouables possédés, tous confondus. */
+function playable(){
+  return ROSTER.filter(e => e.kind === 'play' && S.owned[e.id]);
+}
+
+/* L'équipe qui descend sur le terrain : trois au maximum.
+   C'est le vrai choix tactique — cinq verbes existent, trois partent. */
+function party(){
+  const own = playable();
+  if (!Array.isArray(S.team)) S.team = [];
+  S.team = S.team.filter(id => S.owned[id] && ALLY_KIT[id]).slice(0,3);
+  for (const e of own){
+    if (S.team.length >= 3) break;
+    if (!S.team.includes(e.id)) S.team.push(e.id);
+  }
+  return S.team.map(id => BY_ID[id]);
+}
+function toggleTeam(id){
+  if (!Array.isArray(S.team)) S.team = [];
+  const i = S.team.indexOf(id);
+  if (i >= 0){ if (S.team.length > 1) S.team.splice(i,1); }
+  else if (S.team.length < 3) S.team.push(id);
+  else { S.team.shift(); S.team.push(id); }
+}
+
+/* ---------------------------------------------------------------------------
+   SAUVEGARDE — adaptateur à trois niveaux.
+   window.storage (aperçu Claude) → localStorage (GitHub Pages) → mémoire.
+   Le même fichier marche des deux côtés sans modification.
+   --------------------------------------------------------------------------- */
+const KEY = 'sale:save';
+let memSave = null;
+
+async function saveGame(){
+  const blob = JSON.stringify(S);
+  memSave = blob;
+  try { if (window.storage) { await window.storage.set(KEY, blob); return; } } catch(e){}
+  try { localStorage.setItem(KEY, blob); } catch(e){}
+}
+async function loadGame(){
+  let blob = null;
+  try { if (window.storage) { const r = await window.storage.get(KEY); blob = r && r.value; } } catch(e){}
+  if (!blob) { try { blob = localStorage.getItem(KEY); } catch(e){} }
+  if (!blob) blob = memSave;
+  if (!blob) return false;
+  try { Object.assign(S, JSON.parse(blob)); return true; } catch(e){ return false; }
+}
+async function wipeSave(){
+  memSave = null;
+  try { if (window.storage) await window.storage.delete(KEY); } catch(e){}
+  try { localStorage.removeItem(KEY); } catch(e){}
+}
+
+/* ---------------------------------------------------------------------------
+   Petits utilitaires DOM
+   --------------------------------------------------------------------------- */
+const $  = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const show = (sel,on) => $(sel).classList.toggle('on', on);
+const wait = ms => new Promise(r => setTimeout(r, ms));
+
+async function fadeTo(fn){
+  const f = $('#fade');
+  f.classList.add('on');
+  await wait(340);
+  await fn();
+  f.classList.remove('on');
+}
+
+
+/* ============================================================================
+   LE MONDE — Phaser 3
+   Aucun asset : toutes les textures sont générées au lancement.
+   Remplace makeTextures() par des vraies images IA quand tu les auras.
+   ============================================================================ */
+
+/* codes de tuile */
+const V = { VOID:0, GROUND:1, ROCK:2, GAP:3, WATER:4, CRACK:5, SEAL:6, THRONE:7 };
+
+/* quel verbe ouvre quel obstacle */
+const OPENS = { [V.GAP]:'FONDRE', [V.WATER]:'ONDE', [V.CRACK]:'BRISE', [V.SEAL]:'AOUT' };
+
+let MAP = [];            // MAP[y][x]
+let ENTITIES = [];        // { id, tx, ty, type }
+
+/* Index des tuiles dans tileset.png — même ordre que tools/gen_assets.py */
+const TN = ['g0a','g0b','g1a','g1b','g2a','g2b','g3a','g3b',
+            'g4a','g4b','g5a','g5b','throne','throne2','rock','rock_top',
+            'gap','water','crack','seal','rubble','bone','salt_pile','post'];
+const TF = Object.fromEntries(TN.map((n,i) => [n,i]));
+
+/* chars.png : 8 persos x 3 frames sur 24 colonnes, 4 directions en lignes */
+const CHAR_COLS = 24;
+const CHAR_I = { jhn:0, petitnoir:1, libellule:2, maxime:3,
+                 inqtroub:4, marquis:5, npc_off:6, npc_on:7 };
+const DIR_ROW = { down:0, left:1, right:2, up:3 };
+const charFrame = (who, dir, f) => DIR_ROW[dir]*CHAR_COLS + CHAR_I[who]*3 + f;
+
+/* --------------------------------------------------------------------------
+   Construction de la carte. Six régions en L, portes verrouillées par verbe.
+   -------------------------------------------------------------------------- */
+function buildMap(){
+  MAP = Array.from({length:MAPH}, () => Array(MAPW).fill(V.VOID));
+
+  const rect = r => ({ x0:r.gx*RW, y0:r.gy*RH, x1:r.gx*RW+RW-1, y1:r.gy*RH+RH-1 });
+
+  // sol + murs de chaque région
+  for (const r of REGIONS){
+    const b = rect(r);
+    for (let y=b.y0; y<=b.y1; y++)
+      for (let x=b.x0; x<=b.x1; x++)
+        MAP[y][x] = (x===b.x0||x===b.x1||y===b.y0||y===b.y1) ? V.ROCK : V.GROUND;
+  }
+
+  // reliefs dispersés — bruit déterministe, la carte est la même à chaque partie
+  let seed = 20262020;
+  const rnd = () => (seed = (seed*1664525 + 1013904223) % 4294967296) / 4294967296;
+  for (const r of REGIONS){
+    const b = rect(r);
+    for (let i=0; i<26; i++){
+      const x = b.x0+2 + Math.floor(rnd()*(RW-5));
+      const y = b.y0+2 + Math.floor(rnd()*(RH-5));
+      if (MAP[y][x] === V.GROUND) MAP[y][x] = V.ROCK;
+    }
+  }
+
+  // dégagement garanti autour du point d'apparition
+  for (let y=39; y<=43; y++) for (let x=7; x<=11; x++)
+    if (MAP[y] && MAP[y][x] === V.ROCK) MAP[y][x] = V.GROUND;
+
+  // salle du trône, dans Le Trône Vide
+  const t = rect(REGIONS[0]);
+  for (let y=t.y0+2; y<=t.y0+5; y++)
+    for (let x=t.x0+2; x<=t.x0+7; x++) MAP[y][x] = V.THRONE;
+
+  /* portes entre régions. door(a,b,type) perce le mur mitoyen. */
+  function door(a, b, type){
+    const A = rect(REGIONS[a]), B = rect(REGIONS[b]);
+    if (REGIONS[a].gy === REGIONS[b].gy){
+      const x = Math.max(A.x0, B.x0);           // mur vertical partagé
+      const y = Math.floor((A.y0 + A.y1) / 2);
+      for (const dy of [-1,0,1]) MAP[y+dy][x] = type;
+      MAP[y][x-1] = MAP[y][x+1] = V.GROUND;
+    } else {
+      const y = Math.max(A.y0, B.y0);           // mur horizontal partagé
+      const x = Math.floor((A.x0 + A.x1) / 2);
+      for (const dx of [-1,0,1]) MAP[y][x+dx] = type;
+      MAP[y-1][x] = MAP[y+1][x] = V.GROUND;
+    }
+  }
+  door(0,1, V.GROUND);   // ouvert : la sortie du trône
+  door(1,2, V.GAP);      // libellule marron glacé
+  door(2,3, V.CRACK);    // gros maxime
+  door(3,4, V.WATER);    // aqua
+  door(4,5, V.SEAL);     // 11 août
+
+  /* entités : chaque entrée du registre est posée dans sa région */
+  ENTITIES = [];
+  seed = 771113;
+  for (const r of REGIONS){
+    const b = rect(r);
+    const list = ROSTER.filter(e => e.reg === r.i && e.kind !== 'king' && e.kind !== 'boss'
+                                    && !BOSS_REWARDS.has(e.id));
+    list.forEach((e, i) => {
+      let x, y, tries = 0;
+      do {
+        x = b.x0+2 + Math.floor(rnd()*(RW-5));
+        y = b.y0+2 + Math.floor(rnd()*(RH-5));
+      } while (MAP[y][x] !== V.GROUND && ++tries < 60);
+      MAP[y][x] = V.GROUND;
+      ENTITIES.push({ id:e.id, tx:x, ty:y, type:'recruit' });
+    });
+  }
+  // un boss par région, au fond de sa zone
+  for (const def of Object.values(BOSSES)){
+    const b = rect(REGIONS[def.reg]);
+    let bx = b.x0 + (def.reg === 0 ? 4 : RW - 5);
+    let by = b.y0 + Math.floor(RH/2);
+    for (const [dx,dy] of [[0,0],[0,-1],[0,1],[-1,0],[1,0],[-2,0],[0,-2],[0,2]]){
+      if (MAP[by+dy] && MAP[by+dy][bx+dx] !== V.ROCK && MAP[by+dy][bx+dx] !== V.VOID){
+        bx += dx; by += dy; break;
+      }
+    }
+    MAP[by][bx] = MAP[by][bx] === V.THRONE ? V.THRONE : V.GROUND;
+    // dégagement autour de l'arène
+    for (let y=by-1; y<=by+1; y++) for (let x=bx-1; x<=bx+1; x++)
+      if (MAP[y] && MAP[y][x] === V.ROCK) MAP[y][x] = V.GROUND;
+    ENTITIES.push({ id:def.id, tx:bx, ty:by, type:'boss' });
+  }
+}
+
+function tileAtRaw(tx,ty){
+  return (ty<0||ty>=MAPH||tx<0||tx>=MAPW) ? V.VOID : MAP[ty][tx];
+}
+function tileAt(tx,ty){
+  if (ty<0||ty>=MAPH||tx<0||tx>=MAPW) return V.VOID;
+  return MAP[ty][tx];
+}
+function blocked(tx,ty){
+  const v = tileAt(tx,ty);
+  if (v === V.VOID || v === V.ROCK) return true;
+  const need = OPENS[v];
+  if (need) return need === 'AOUT' ? !has('aout11') : !hasVerb(need);
+  return false;
+}
+function regionAt(tx,ty){
+  return REGIONS.find(r => tx>=r.gx*RW && tx<r.gx*RW+RW && ty>=r.gy*RH && ty<r.gy*RH+RH) || REGIONS[0];
+}
+
+/* ==========================================================================
+   SCÈNE
+   ========================================================================== */
+class WorldScene extends Phaser.Scene {
+  constructor(){ super({ key:'world', active:false }); }
+
+  preload(){
+    this.load.spritesheet('tiles',  ASSETS.tileset, { frameWidth:32, frameHeight:32 });
+    this.load.spritesheet('chars',  ASSETS.chars,   { frameWidth:32, frameHeight:32 });
+    this.load.spritesheet('bosses', ASSETS.bosses,  { frameWidth:64, frameHeight:64 });
+  }
+
+  create(){
+    this.makeAnims();
+    buildMap();
+    this.drawGround();
+
+    this.cameras.main.setBounds(0,0,MAPW*T,MAPH*T);
+    this.cameras.main.setBackgroundColor(0x0E141C);
+
+    // obstacles : un corps statique par tuile bloquante
+    this.walls = this.physics.add.staticGroup();
+    this.gateBodies = [];
+    for (let y=0;y<MAPH;y++) for (let x=0;x<MAPW;x++){
+      const v = MAP[y][x];
+      if (v===V.ROCK || v===V.VOID || OPENS[v]){
+        const b = this.walls.create(x*T+T/2, y*T+T/2, null).setVisible(false);
+        b.body.setSize(T,T); b.tileV = v; b.tx = x; b.ty = y;
+        if (OPENS[v]) this.gateBodies.push(b);
+      }
+    }
+
+    // entités
+    this.ents = [];
+    for (const e of ENTITIES){
+      const done = e.type === 'boss' ? S.bossesDone[e.id] : S.owned[e.id];
+      if (done && e.type === 'boss') continue;
+      let s;
+      if (e.type === 'boss'){
+        s = this.add.sprite(e.tx*T+T/2, e.ty*T+T/2, 'bosses').setDepth(5);
+        s.play('boss_'+e.id);
+      } else {
+        const who = S.owned[e.id] ? 'npc_on' : 'npc_off';
+        s = this.add.sprite(e.tx*T+T/2, e.ty*T+T/2, 'chars').setDepth(4);
+        s.play(who+'_down');
+        s.anims.msPerFrame = 260 + ((e.tx*53) % 220);
+        this.tweens.add({ targets:s, y:s.y-2, duration:1500+((e.tx*37)%700),
+          yoyo:true, repeat:-1, ease:'Sine.inOut' });
+      }
+      s.ent = e;
+      this.ents.push(s);
+    }
+
+    // le roi
+    this.p = this.physics.add.sprite(S.x*T+T/2, S.y*T+T/2, 'chars').setDepth(6);
+    this.p.setFrame(charFrame('jhn','down',0));
+    this.dir = 'down';
+    this.p.body.setSize(16,14).setOffset(6,16);
+    this.hintAt = 0;
+    this.physics.add.collider(this.p, this.walls, (_p, w) => {
+      if (!OPENS[w.tileV] || UI.busy) return;
+      const now = this.time.now;
+      if (now - this.hintAt < 2500) return;
+      this.hintAt = now;
+      UI.gateHint(w.tileV);
+    });
+    this.cameras.main.startFollow(this.p, true, 0.12, 0.12);
+    this.cameras.main.setZoom(this.computeZoom());
+
+    this.setupInput();
+    this.refreshGates();
+    this.near = null;
+    this.scale.on('resize', () => this.cameras.main.setZoom(this.computeZoom()));
+    UI.setRegion(regionAt(S.x, S.y));
+  }
+
+  computeZoom(){
+    // ~11 tuiles visibles en largeur : lisible sur un écran de téléphone
+    return Math.max(1.4, Math.min(3.2, this.scale.width / (11*T)));
+  }
+
+  /* -------- animations de marche, identiques pour tous les persos -------- */
+  makeAnims(){
+    for (const who of Object.keys(CHAR_I)){
+      for (const dir of Object.keys(DIR_ROW)){
+        const key = `${who}_${dir}`;
+        if (this.anims.exists(key)) continue;
+        this.anims.create({
+          key,
+          frames: [0,1,0,2].map(f => ({ key:'chars', frame:charFrame(who,dir,f) })),
+          frameRate: 7, repeat: -1,
+        });
+      }
+    }
+    for (const [id, def] of Object.entries(BOSSES)){
+      const key = `boss_${id}`;
+      if (this.anims.exists(key)) continue;
+      this.anims.create({
+        key,
+        frames: [0,1,2,3].map(f => ({ key:'bosses', frame:def.art*4 + f })),
+        frameRate: 4, repeat: -1,
+      });
+    }
+  }
+
+  /* -------- rendu du sol dans une seule RenderTexture -------- */
+  drawGround(){
+    const rt = this.add.renderTexture(0,0,MAPW*T,MAPH*T).setOrigin(0).setDepth(0);
+    const h = (x,y) => ((x*73856093) ^ (y*19349663)) >>> 0;   // hachage stable
+
+    rt.beginDraw();
+    for (let y=0;y<MAPH;y++) for (let x=0;x<MAPW;x++){
+      const v = MAP[y][x];
+      if (v === V.VOID) continue;
+      let f;
+      switch(v){
+        case V.ROCK:   f = (tileAtRaw(x,y-1) !== V.ROCK) ? TF.rock_top : TF.rock; break;
+        case V.THRONE: f = (h(x,y) % 7 === 0) ? TF.throne2 : TF.throne; break;
+        case V.GAP:    f = TF.gap;   break;
+        case V.WATER:  f = TF.water; break;
+        case V.CRACK:  f = TF.crack; break;
+        case V.SEAL:   f = TF.seal;  break;
+        default: {
+          const r = regionAt(x,y).i;
+          const n = h(x,y) % 100;
+          if      (n === 3)  f = TF.rubble;
+          else if (n === 17) f = TF.bone;
+          else if (n === 41) f = TF.salt_pile;
+          else if (n === 63) f = TF.post;
+          else f = TF['g'+r+(n % 2 ? 'a' : 'b')];
+        }
+      }
+      rt.batchDrawFrame('tiles', f, x*T, y*T);
+    }
+    rt.endDraw();
+  }
+
+  /* -------- entrées tactiles : joystick à gauche, action à droite -------- */
+  setupInput(){
+    this.keys = this.input.keyboard
+      ? this.input.keyboard.addKeys({ up:'W', down:'S', left:'A', right:'D',
+          up2:'UP', down2:'DOWN', left2:'LEFT', right2:'RIGHT' })
+      : null;
+    if (this.input.keyboard)
+      this.input.keyboard.on('keydown-SPACE', () => this.interact());
+
+    $('#actBtn').onclick = () => this.interact();
+    bindTouch();                      // une seule fois pour toute la session
+  }
+
+  /* -------- ouvre les obstacles dont le verbe est acquis -------- */
+  refreshGates(){
+    for (const b of this.gateBodies){
+      if (!b.body) continue;
+      const need = OPENS[b.tileV];
+      const open = need === 'AOUT' ? has('aout11') : hasVerb(need);
+      b.body.enable = !open;
+    }
+  }
+
+  interact(){
+    if (!this.near || UI.busy) return;
+    const e = this.near.ent;
+    UI.busy = true;
+    if (e.type === 'boss') Combat.start(BOSSES[e.id], this.near);
+    else UI.recruit(e, this.near);
+  }
+
+  update(){
+    if (UI.busy){ this.p.setVelocity(0,0); MOVE.x = MOVE.y = 0; return; }
+
+    let vx = MOVE.x, vy = MOVE.y;
+    if (this.keys){
+      if (this.keys.left.isDown  || this.keys.left2.isDown)  vx = -1;
+      if (this.keys.right.isDown || this.keys.right2.isDown) vx =  1;
+      if (this.keys.up.isDown    || this.keys.up2.isDown)    vy = -1;
+      if (this.keys.down.isDown  || this.keys.down2.isDown)  vy =  1;
+    }
+    const SPD = 122;
+    this.p.setVelocity(vx*SPD, vy*SPD);
+
+    if (vx || vy){
+      const dir = Math.abs(vx) > Math.abs(vy) ? (vx < 0 ? 'left' : 'right')
+                                              : (vy < 0 ? 'up'   : 'down');
+      if (dir !== this.dir || !this.p.anims.isPlaying){
+        this.dir = dir;
+        this.p.play('jhn_'+dir, true);
+      }
+    } else if (this.p.anims.isPlaying){
+      this.p.stop();
+      this.p.setFrame(charFrame('jhn', this.dir, 0));
+    }
+
+    // région courante
+    const tx = Math.floor(this.p.x/T), ty = Math.floor(this.p.y/T);
+    if (tx !== S.x || ty !== S.y){
+      const before = regionAt(S.x, S.y);
+      S.x = tx; S.y = ty;
+      const now = regionAt(tx,ty);
+      if (now !== before) UI.setRegion(now);
+    }
+
+    // entité la plus proche
+    let best = null, bd = 46;
+    for (const s of this.ents){
+      if (!s.active) continue;
+      const d = Phaser.Math.Distance.Between(this.p.x,this.p.y,s.x,s.y);
+      if (d < bd){ bd = d; best = s; }
+    }
+    if (best !== this.near){
+      this.near = best;
+      const btn = $('#actBtn');
+      btn.classList.toggle('on', !!best);
+      if (best) btn.textContent = best.ent.type === 'boss' ? 'AFFRONTER' : 'PARLER';
+    }
+  }
+}
+
+
+/* --------------------------------------------------------------------------
+   Joystick virtuel — lié une seule fois, indépendant de la scène.
+   Moitié gauche de l'écran : on pose le doigt, le stick apparaît là.
+   -------------------------------------------------------------------------- */
+const MOVE = { x:0, y:0 };
+let touchBound = false;
+
+function bindTouch(){
+  if (touchBound) return;
+  touchBound = true;
+
+  const stick = $('#stick'), knob = stick.firstElementChild;
+  let id = null, ox = 0, oy = 0;
+
+  const start = ev => {
+    if (UI.busy || id !== null) return;
+    const t = ev.changedTouches ? ev.changedTouches[0] : ev;
+    if (t.clientX > innerWidth * 0.55) return;
+    id = t.identifier !== undefined ? t.identifier : 'mouse';
+    ox = t.clientX; oy = t.clientY;
+    stick.style.display = 'block';
+    stick.style.left = (ox - 56) + 'px';
+    stick.style.top  = (oy - 56) + 'px';
+  };
+  const move = ev => {
+    if (id === null) return;
+    const list = ev.changedTouches ? [...ev.changedTouches] : [ev];
+    const t = list.find(t => (t.identifier !== undefined ? t.identifier : 'mouse') === id);
+    if (!t) return;
+    let dx = t.clientX - ox, dy = t.clientY - oy;
+    const d = Math.hypot(dx, dy) || 1, m = Math.min(d, 46);
+    dx = dx / d * m; dy = dy / d * m;
+    knob.style.transform = `translate(${dx}px,${dy}px)`;
+    MOVE.x = dx / 46; MOVE.y = dy / 46;
+    if (ev.cancelable) ev.preventDefault();
+  };
+  const end = () => {
+    id = null; MOVE.x = MOVE.y = 0;
+    stick.style.display = 'none';
+    knob.style.transform = '';
+  };
+
+  addEventListener('touchstart', start, { passive:true });
+  addEventListener('touchmove',  move,  { passive:false });
+  addEventListener('touchend',   end);
+  addEventListener('touchcancel',end);
+  addEventListener('mousedown',  start);
+  addEventListener('mousemove',  move);
+  addEventListener('mouseup',    end);
+}
+
+
+/* ============================================================================
+   LE COMBAT
+   JHN n'a pas de PV et ne frappe jamais. Il dépense des SCEAUX.
+   Deux par tour, trois avec darius stim. Trois alliés sur le terrain :
+   tu ne peux donc jamais tous les faire agir. C'est cette rareté qui
+   remplace le tableau des types.
+   ============================================================================ */
+
+/* PV et verbes de chaque allié jouable. Tous ont Frapper et Garder ;
+   le troisième verbe est leur signature. */
+const ALLY_KIT = {
+  petitnoir: { hp:28, verbs:['FRAPPE','GARDE','CHANTE'] },
+  libellule: { hp:24, verbs:['FRAPPE','GARDE','FONDRE'] },
+  maxime:    { hp:42, verbs:['FRAPPE','GARDE','BRISE']  },
+  inqtroub:  { hp:26, verbs:['FRAPPE','GARDE','REVELE'] },
+  marquis:   { hp:22, verbs:['FRAPPE','GARDE','DECRET'] },
+};
+const BOSS_REWARDS = new Set(Object.values(BOSSES).map(b => b.reward).filter(Boolean));
+
+const Combat = {
+  on:false, boss:null, def:null, sprite:null,
+  allies:[], seals:0, sel:0, mark:0, pending:null, pIdx:0, locked:false,
+
+  maxSeals(){ return 2 + (has('darius') ? 1 : 0); },
+  allyMaxHp(id){ return ALLY_KIT[id].hp + (S.level - 1) * 3; },
+
+  /* ---------------------------------------------------------------- départ */
+  start(def, sprite){
+    const roster = party();
+    if (!roster.length){ UI.say('JHN', "Personne ne répond. Il faut d'abord quelqu'un à commander."); return; }
+
+    this.def = def; this.sprite = sprite; this.on = true; this.locked = false;
+    this.boss = { hp:def.hp, max:def.hp, guard:false };
+    this.allies = roster.slice(0,3).map(e => ({
+      id:e.id, name:e.name,
+      hp:this.allyMaxHp(e.id), max:this.allyMaxHp(e.id),
+      guard:false, threat:0, used:{},
+      verbs:ALLY_KIT[e.id].verbs,
+    }));
+    this.seals = this.maxSeals();
+    this.sel = 0; this.mark = 0; this.pending = null; this.pIdx = 0;
+
+    UI.busy = true;
+    $('#log').innerHTML = '';
+    $('#foeName').textContent = def.name;
+    const art = $('#foeArt');
+    art.style.backgroundImage = `url(${ASSETS.bosses})`;
+    art.style.backgroundPositionY = `-${def.art * 128}px`;
+    show('#combat', true);
+    this.log(def.intro);
+    this.render();
+  },
+
+  log(t){
+    const p = document.createElement('p');
+    p.textContent = t;
+    const box = $('#log');
+    box.appendChild(p);
+    while (box.children.length > 4) box.firstChild.remove();
+  },
+
+  /* ---------------------------------------------------------------- rendu */
+  render(){
+    // sceaux : le signature element
+    const seals = $('#seals');
+    seals.innerHTML = '';
+    for (let i=0; i<this.maxSeals(); i++){
+      const d = document.createElement('div');
+      d.className = 'seal' + (i >= this.seals ? ' spent' : '');
+      seals.appendChild(d);
+    }
+
+    // barre du boss
+    $('#foeHp').style.width = Math.max(0, this.boss.hp / this.boss.max * 100) + '%';
+
+    // télégraphe — lisible seulement avec le joker de méfiance
+    const tele = $('#tele'), seen = has('joker');
+    tele.classList.toggle('hidden', !seen);
+    if (this.pending){
+      $('#teleAct').textContent = this.pending.act;
+      const imp = this.pending.unblockable ? ' · IMPARABLE' : '';
+      $('#teleCnt').textContent = (this.pending.left > 0
+        ? `RÉSOUT DANS ${this.pending.left}` : 'MAINTENANT') + imp;
+      tele.classList.toggle('imminent', this.pending.left <= 1);
+    } else {
+      $('#teleAct').textContent = this.boss.guard ? 'En garde' : 'Immobile';
+      $('#teleCnt').textContent = '';
+      tele.classList.remove('imminent');
+    }
+    if (!seen) $('#teleAct').textContent = 'Illisible';
+
+    // alliés
+    const row = $('#allyRow');
+    row.innerHTML = '';
+    this.allies.forEach((a,i) => {
+      const b = document.createElement('button');
+      b.className = 'ally' + (i===this.sel?' sel':'') + (a.hp<=0?' down':'');
+      b.innerHTML = `<div class="nm">${a.name}</div>
+        <div class="bar small"><i style="width:${Math.max(0,a.hp/a.max*100)}%"></i></div>
+        <div class="hp">${Math.max(0,a.hp)}/${a.max}${a.guard?' · GARDE':''}</div>`;
+      b.onclick = () => { if (a.hp>0){ this.sel = i; this.render(); } };
+      row.appendChild(b);
+    });
+
+    // verbes de l'allié sélectionné
+    const vr = $('#verbRow');
+    vr.innerHTML = '';
+    const a = this.allies[this.sel];
+    if (a && a.hp > 0){
+      for (const key of a.verbs){
+        const v = VERBS[key];
+        const spent = v.once && a.used[key];
+        const btn = document.createElement('button');
+        btn.className = 'verb';
+        btn.innerHTML = `${v.label}<span class="cost">${'●'.repeat(v.cost)}</span>`;
+        btn.disabled = this.locked || spent || this.seals < v.cost;
+        btn.onclick = () => this.act(key);
+        vr.appendChild(btn);
+      }
+    }
+    $('#cbtPhase').textContent = this.locked ? "L'ENNEMI AGIT" : `ORDRES · ${this.seals}`;
+    $('#endturn').disabled = this.locked;
+  },
+
+  /* ------------------------------------------------------- un ordre donné */
+  act(key){
+    if (this.locked) return;
+    const v = VERBS[key], a = this.allies[this.sel];
+    if (this.seals < v.cost || (v.once && a.used[key])) return;
+
+    this.seals -= v.cost;
+    if (v.once) a.used[key] = true;
+
+    if (v.guard){ a.guard = true; this.log(`${a.name} se place devant.`); }
+
+    if (v.refund){ this.seals += v.refund; this.log(`${a.name} décrète. Deux sceaux reviennent.`); }
+
+    if (v.mark){ this.mark = v.mark; this.log(`${a.name} désigne le point faible.`); }
+
+    if (v.breaks){
+      if (this.pending){ this.log(`${a.name} brise la préparation. L'attaque tombe.`); this.pending = null; }
+      else if (this.boss.guard){ this.log(`${a.name} ouvre la garde.`); this.boss.guard = false; }
+    }
+
+    if (v.dmg){
+      let d = v.dmg;
+      if (this.mark > 0) d = Math.round(d * 1.6);
+      if (this.boss.guard && !v.pierce) d = Math.round(d * 0.5);
+      this.boss.hp -= d;
+      a.threat += d;                       // frapper, c'est se désigner
+      this.log(`${a.name} — ${v.label.toLowerCase()} · ${d} dégâts.`);
+    }
+
+    if (v.heal){
+      for (const x of this.allies) if (x.hp > 0) x.hp = Math.min(x.max, x.hp + v.heal);
+      this.log('Le chant referme les plaies.');
+    }
+
+    if (v.selfKO){ a.hp = 0; this.log(`${a.name} ne se relèvera pas de ce combat.`); }
+
+    this.render();
+    if (this.boss.hp <= 0) return this.win();
+    if (this.seals <= 0) this.endTurn();
+  },
+
+  /* ------------------------------------------------------------ tour ennemi */
+  async endTurn(){
+    if (this.locked) return;
+    this.locked = true;
+    this.render();
+    await wait(420);
+
+    if (this.mark > 0) this.mark--;
+
+    if (this.pending){
+      this.pending.left--;
+      if (this.pending.left <= 0){ await this.resolve(this.pending); this.pending = null; this.boss.guard = false; }
+      else { this.log(`${this.def.name} continue de se préparer.`); }
+    } else {
+      const step = this.def.pattern[this.pIdx % this.def.pattern.length];
+      this.pIdx++;
+      this.boss.guard = !!step.guard;
+      if (step.wind > 0){
+        this.pending = { ...step, left:step.wind };
+        this.log(`${this.def.name} : ${step.act.toLowerCase()}…`);
+      } else {
+        await this.resolve(step);
+      }
+    }
+
+    this.render();
+    await wait(340);
+
+    if (this.allies.every(a => a.hp <= 0)) return this.lose();
+
+    for (const a of this.allies){ a.guard = false; a.threat = 0; }
+    this.seals = this.maxSeals();
+    this.locked = false;
+    const alive = this.allies.findIndex(a => a.hp > 0);
+    if (this.allies[this.sel].hp <= 0 && alive >= 0) this.sel = alive;
+    $('#seals').querySelectorAll('.seal').forEach(s => s.classList.add('gain'));
+    this.render();
+  },
+
+  async resolve(step){
+    if (!step.dmg) { this.log(`${this.def.name} ${step.act.toLowerCase()}.`); return; }
+    const alive = this.allies.filter(a => a.hp > 0);
+    if (!alive.length) return;
+    /* Le boss frappe celui qui vient de le frapper le plus fort.
+       C'est ce qui rend la garde indispensable : plus tu attaques,
+       plus tu t'exposes, et seul un allié placé devant peut encaisser. */
+    /* Une attaque imparable traverse la garde : seule une brisure l'arrête. */
+    const guard = step.unblockable ? null : alive.find(a => a.guard);
+    const target = guard || alive.reduce((m,a) =>
+      (a.threat > m.threat || (a.threat === m.threat && a.hp > m.hp)) ? a : m, alive[0]);
+    let d = step.dmg;
+    if (guard) d = Math.round(d * 0.4);
+    if (step.unblockable) this.log('Rien ne peut être placé devant.');
+    target.hp -= d;
+    this.log(`${step.act} — ${target.name} encaisse ${d}${guard ? ' (garde)' : ''}.`);
+    if (target.hp <= 0) this.log(`${target.name} ne répond plus.`);
+    const cam = document.getElementById('combat');
+    cam.animate([{transform:'translateX(0)'},{transform:'translateX(-7px)'},
+      {transform:'translateX(6px)'},{transform:'translateX(0)'}], {duration:180});
+  },
+
+  /* ------------------------------------------------------------ résultats */
+  async win(){
+    this.locked = true;
+    this.render();
+    this.log(this.def.outro);
+    await wait(1500);
+    S.bossesDone[this.def.id] = true;
+    S.level++;
+    let gained = null;
+    if (this.def.reward && !S.owned[this.def.reward]){
+      S.owned[this.def.reward] = true;
+      gained = BY_ID[this.def.reward];
+    }
+    await saveGame();
+    this.close();
+    if (this.sprite){ this.sprite.destroy(); }
+    await wait(260);
+    if (gained) UI.say('LE SALÉ LINGUISTIQUE',
+      `${gained.name} rejoint le royaume. ${UI.verbLine(gained)}`);
+    else UI.say('LE ROI', `Niveau ${S.level}. Les tiens tiennent un peu mieux debout.`);
+  },
+
+  async lose(){
+    this.locked = true;
+    this.log('Plus personne ne se lève. JHN recule.');
+    this.render();
+    await wait(1600);
+    this.close();
+    UI.say('JHN', 'Ce n\'était pas le bon ordre. Recommence.');
+  },
+
+  close(){
+    this.on = false;
+    show('#combat', false);
+    UI.busy = false;
+  },
+};
+
+
+/* ============================================================================
+   INTERFACE — dialogue, recrutement, royaume, registre.
+   ============================================================================ */
+
+/* Les répliques du peuplement.
+   ⚠️ À REMPLACER : ce sont des lignes neutres. Les vraies vannes, c'est toi.
+   Une entrée du ROSTER peut recevoir sa propre ligne dans LINES ci-dessous. */
+/*  Une réplique par entrée. Elles sont écrites pour tenir sans connaître
+    la vanne d'origine : chacune parle du royaume, du sel, ou du fait
+    d'être retrouvé. Remplace librement — la structure ne bouge pas. */
+const LINES = {
+  // 2020 — 2022
+  petitnoir: "Je ne sais pas me battre. Je sais chanter pendant que les autres tombent.",
+  joker:     "Méfie-toi de tout. Surtout de ce qui prend son temps avant de frapper.",
+  felic:     "Bravo. Sincèrement. Tu es le premier à revenir jusqu'ici.",
+  // 2023
+  blague:    "On m'a dit que ce royaume était une plaisanterie. J'ai attendu la chute. Elle n'est jamais venue.",
+  oris:      "J'étais là avant le sel. Je serai là après.",
+  libellule: "Les gouffres, ça se survole. Les gardes, ça se contourne.",
+  daniel:    "Je ne pose pas de questions. Montre-moi où marcher.",
+  muri:      "Les murs sont tombés. Moi je tiens encore.",
+  lee:       "Court. Net. Je viens.",
+  // 2024
+  qui:       "Qui ? Toi ? … D'accord. Alors allons-y.",
+  tressale:  "Ce qui a détruit ce royaume, j'en ai gardé le goût.",
+  quoimg:    "Tu me regardes comment, là ? … Non, c'est bon. Je te suis.",
+  maxime:    "Montre-moi ce qui est fermé.",
+  uuh:       "…UUUUHHHH. Voilà. C'est tout ce que j'ai à dire.",
+  aqua:      "L'eau ne t'arrêtera plus.",
+  darius:    "Un ordre de plus par tour. Utilise-le mieux que le premier.",
+  youpi:     "Enfin quelqu'un. J'allais finir par parler tout seul.",
+  inquis:    "J'ai jugé tout le monde ici. Il ne reste personne. Alors je te suis.",
+  inqtroub:  "Nous sommes deux, nous prenons une place. Nous la valons.",
+  milf:      "Trente-cinq à retrouver et tu commences par moi. Bon choix.",
+  mystic:    "Bois. Ou ne bois pas. Mais avance.",
+  aout11:    "Tu sais ce que cette date ouvre. Monte.",
+  // 2025
+  trisse:    "J'ai ri quand tout est tombé. C'était ça ou pleurer.",
+  la:        "Là. N'importe où, en fait.",
+  celeb:     "Quand ils seront tous revenus, on fera quelque chose. Promets-le.",
+  gluter:    "Je colle. Aux murs, aux gens, au royaume. Je ne pars pas.",
+  ilfaut:    "Il faut. C'est tout. Il faut, donc j'y vais.",
+  marquis:   "Un décret ne coûte rien. Il rend même du temps.",
+  bipo:      "Un jour je tiens tout le royaume. Le lendemain rien. Aujourd'hui : tout.",
+  jhahan:    "JHHAHAHHAHAHAN. …Désolé. C'est nerveux. Depuis le sel.",
+  taff:      "Il y a du travail. Beaucoup. Commence par me suivre.",
+  cuba:      "Le meilleur d'entre nous, paraît-il. On verra.",
+  // 2026
+  memoire:   "Ce tour-là, tu peux le rejouer. Une fois.",
+  selfkill:  "Il y aura un moment où ça vaudra le coup. Un seul.",
+};
+const FILLER = ["Je te suis."];
+
+const UI = {
+  busy:false, scene:null, _resolve:null,
+
+  /* ------------------------------------------------------------- dialogue */
+  say(who, text){
+    return new Promise(res => {
+      this.busy = true;
+      $('#dWho').textContent = who;
+      $('#dTxt').textContent = text;
+      show('#dialog', true);
+      this._resolve = res;
+    });
+  },
+  closeSay(){
+    if (!$('#dialog').classList.contains('on')) return;
+    show('#dialog', false);
+    this.busy = false;
+    const r = this._resolve; this._resolve = null;
+    if (r) r();
+  },
+
+  /* --------------------------------------------------- ce qu'un allié ouvre */
+  verbLine(e){
+    if (!e.verb) return '';
+    const map = {
+      CHANTE:'Il chante en combat : dégâts légers, soin de groupe.',
+      VOIT:'Tu lis désormais ce que prépare l\'ennemi.',
+      FONDRE:'Elle ignore les gardes — et tu franchis les gouffres.',
+      BRISE:'Il annule les charges — et ouvre les roches fendues.',
+      ONDE:'Tu traverses l\'eau.',
+      SCEAU:'Un sceau de plus à chaque tour.',
+      REVELE:'Ils désignent le point faible : dégâts +60 % pendant deux tours.',
+      DECRET:'Il rend deux sceaux, une fois par combat.',
+      AILLEURS:'Tu peux revenir au royaume à volonté.',
+      MEMOIRE:'Tu peux rejouer un tour.',
+      SACRIFICE:'Un coup énorme. L\'allié tombe avec.',
+    };
+    return map[e.verb] || '';
+  },
+
+  /* ----------------------------------------------------------- recrutement */
+  async recruit(e, sprite){
+    const entry = BY_ID[e.id];
+    if (S.owned[e.id]){
+      await this.say(entry.name.toUpperCase(), 'Je te suis déjà.');
+      return;
+    }
+    const line = LINES[e.id] || FILLER[0];
+    await this.say(entry.name.toUpperCase(), line);
+
+    S.owned[e.id] = true;
+    sprite.play('npc_on_down');
+    if (this.scene) this.scene.refreshGates();
+    await saveGame();
+
+    const extra = this.verbLine(entry);
+    const n = ownedCount();
+    await this.say('LE SALÉ LINGUISTIQUE',
+      `${entry.name} — récupéré. ${n} / 35.${extra ? ' ' + extra : ''}`);
+  },
+
+  /* --------------------------------------------------------------- région */
+  setRegion(r){
+    $('#hudRegion').textContent = r.name;
+    $('#hudYear').textContent = r.year;
+  },
+
+  /* --------------------------------------------------- obstacle verrouillé */
+  gateHint(v){
+    const need = OPENS[v];
+    const txt = {
+      FONDRE:'Un gouffre. Il faudrait quelqu\'un qui vole.',
+      BRISE:'La roche est fendue mais tient. Il faudrait de la force.',
+      ONDE:'L\'eau est haute. Il faudrait pouvoir la traverser.',
+      AOUT:'Un sceau. Il porte une date que tu n\'as pas encore retrouvée.',
+    }[need];
+    if (txt) this.say('—', txt);
+  },
+
+  /* --------------------------------------------------------------- menu */
+  openMenu(tab){
+    this.busy = true;
+    show('#menu', true);
+    $$('.tab').forEach(t => t.classList.toggle('on', t.dataset.tab === tab));
+    const sheet = $('#menuSheet');
+
+    if (tab === 'realm'){
+      const n = ownedCount();
+      sheet.innerHTML = `
+        <div class="sect">
+          <div class="eyebrow">LE ROYAUME PERDU</div>
+          <div class="decree" style="margin:8px 0 6px">${n} <span style="color:var(--salt-dim);font-size:.5em">/ 35</span></div>
+          <p style="font-size:13px;color:var(--salt-dim);line-height:1.5">
+            Chaque entrée retrouvée rallume un bâtiment. Niveau ${S.level} ·
+            ${2 + (has('darius')?1:0)} sceaux par tour.</p>
+        </div>
+        <div class="sect" id="teamSect"></div>
+        <div class="sect"><h3>Bâtiments</h3><div id="realm"></div></div>`;
+      this.renderTeam();
+      const grid = $('#realm');
+      ROSTER.filter(e => e.kind !== 'king' && e.kind !== 'boss').forEach(e => {
+        const d = document.createElement('div');
+        d.className = 'brick' + (S.owned[e.id] ? ' up' : '');
+        d.textContent = S.owned[e.id] ? e.name.slice(0,14) : '';
+        grid.appendChild(d);
+      });
+    }
+
+    if (tab === 'reg'){
+      let html = '';
+      let n = 0;
+      for (const y of [2020,2021,2022,2023,2024,2025,2026]){
+        const list = ROSTER.filter(e => e.y === y);
+        html += `<div class="sect"><h3>${y}</h3>`;
+        for (const e of list){
+          n++;
+          const own = S.owned[e.id] || e.kind === 'king';
+          const kind = e.kind === 'play' ? '<span class="k play">jouable</span>'
+                    : e.kind === 'equip' ? '<span class="k equip">objet</span>'
+                    : e.kind === 'key'   ? '<span class="k key">clé</span>'
+                    : e.kind === 'king'  ? '<span class="k key">roi</span>'
+                    : e.kind === 'boss'  ? '<span class="k key">?</span>' : '';
+          html += `<div class="entry${own?'':' locked'}">
+            <span class="n">${String(n).padStart(2,'0')}</span>
+            <span class="t">${own ? e.name : '—'}</span>${own ? kind : ''}</div>`;
+        }
+        html += '</div>';
+      }
+      sheet.innerHTML = html;
+    }
+
+    if (tab === 'sys'){
+      sheet.innerHTML = `
+        <div class="sect">
+          <h3>Sauvegarde</h3>
+          <p style="font-size:13px;color:var(--salt-dim);line-height:1.6">
+            La partie s'enregistre automatiquement à chaque recrutement et à chaque
+            boss vaincu. Ajoute la page à ton écran d'accueil pour y jouer en plein
+            écran, hors ligne.</p>
+          <button class="big warn" id="btnWipe">Effacer la sauvegarde</button>
+        </div>`;
+      $('#btnWipe').onclick = async () => {
+        await wipeSave();
+        location.reload();
+      };
+    }
+
+    sheet.scrollTop = 0;
+  },
+
+  /* Trois places sur le terrain, cinq verbes possibles.
+     C'est ici que se fait le vrai choix tactique. */
+  renderTeam(){
+    const host = $('#teamSect');
+    if (!host) return;
+    const own = playable();
+    if (!own.length){ host.innerHTML = ''; return; }
+    party();                                     // normalise S.team
+    host.innerHTML = `<h3>Équipe · ${S.team.length} / 3</h3>`;
+    for (const e of own){
+      const inTeam = S.team.includes(e.id);
+      const b = document.createElement('button');
+      b.className = 'pick' + (inTeam ? ' in' : '');
+      const col = CHAR_I[e.id] * 3, row = DIR_ROW.down;
+      b.innerHTML = `<div class="av" style="background-image:url(${ASSETS.chars});
+          background-position:-${col*44}px -${row*44}px"></div>
+        <div><div class="who">${e.name}</div>
+        <div class="vb">${VERBS[e.verb] ? VERBS[e.verb].label.toUpperCase() : ''}</div></div>
+        <div class="slot">${inTeam ? 'SUR LE TERRAIN' : 'AU ROYAUME'}</div>`;
+      b.onclick = async () => { toggleTeam(e.id); await saveGame(); this.renderTeam(); };
+      host.appendChild(b);
+    }
+  },
+
+  closeMenu(){ show('#menu', false); this.busy = false; },
+};
+
+/* ============================================================================
+   AMORÇAGE
+   ============================================================================ */
+(async function boot(){
+  const msg = $('#bootMsg');
+
+  if (typeof Phaser === 'undefined'){
+    msg.innerHTML = 'Phaser n\'a pas pu être chargé.<br>Vérifie ta connexion et recharge.';
+    return;
+  }
+
+  const found = await loadGame();
+  if (found && S.started) $('#btnCont').style.display = 'block';
+
+  const game = new Phaser.Game({
+    type: Phaser.AUTO,
+    parent: 'game',
+    backgroundColor: '#0E141C',
+    pixelArt: true,
+    scale: { mode: Phaser.Scale.RESIZE, autoCenter: Phaser.Scale.CENTER_BOTH },
+    physics: { default: 'arcade', arcade: { gravity:{y:0}, debug:false } },
+    scene: [WorldScene],
+    audio: { noAudio: true },
+  });
+
+  const launch = async (fresh) => {
+    if (fresh){
+      Object.assign(S, {
+        started:true, region:0, x:REGIONS[0].gx*RW+9, y:REGIONS[0].gy*RH+9,
+        owned:{ jhn:true }, bossesDone:{}, level:1, flags:{},
+      });
+      await saveGame();
+    }
+    await fadeTo(async () => {
+      show('#title', false);
+      const sc = game.scene.getScene('world');
+      if (sc && sc.scene.isActive()) sc.scene.restart(); else game.scene.start('world');
+      await wait(140);
+      UI.scene = game.scene.getScene('world');
+    });
+    if (fresh){
+      await UI.say('JHN',
+        "Il ne reste rien. Ni mur, ni garde, ni voix pour répondre. " +
+        "Trente-cinq sont partis. Je n'ai plus que des ordres à donner.");
+    }
+  };
+
+  $('#btnPlay').onclick = () => launch(true);
+  $('#btnCont').onclick = () => launch(false);
+
+  // dialogue : toucher n'importe où pour continuer
+  $('#dialog').addEventListener('pointerdown', e => { e.stopPropagation(); UI.closeSay(); });
+
+  // menu
+  $('#menuBtn').onclick = () => UI.openMenu('realm');
+  $$('.tab[data-tab]').forEach(t => t.onclick = () => UI.openMenu(t.dataset.tab));
+  $('#closeMenu').onclick = () => UI.closeMenu();
+  addEventListener('keydown', e => {
+    if (e.key === 'Escape'){ UI.closeSay(); UI.closeMenu(); }
+  });
+  $('#menu').addEventListener('pointerdown', e => {
+    if (e.target.id === 'menu') UI.closeMenu();
+  });
+
+  // combat
+  $('#endturn').onclick = () => Combat.endTurn();
+
+  $('#boot').style.display = 'none';
+})();
+
+</script>
+</body>
+</html>
